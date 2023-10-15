@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\YandexDisk\FXcursion\HW\Jacks\Jacks.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=jacks-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=jacks-slotholes.txt|DrillLayers=gtl,gbl
