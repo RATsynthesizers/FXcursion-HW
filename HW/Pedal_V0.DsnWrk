@@ -12,3 +12,5 @@ ProjectPath=SOM_Codec_WM8731\Pedal_Codec_4x4.PrjPcb
 ProjectPath=FootSW\Pedal_FootSW.PrjPcb
 [Project6]
 ProjectPath=Jacks\Pedal_Jacks.PrjPcb
+[Project7]
+ProjectPath=..\..\_PEDAL_BreadBoard\HW\Pedal_Power\Pedal_Power.PrjPcb
