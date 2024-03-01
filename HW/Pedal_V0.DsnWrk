@@ -13,4 +13,4 @@ ProjectPath=FootSW\Pedal_FootSW.PrjPcb
 [Project6]
 ProjectPath=Jacks\Pedal_Jacks.PrjPcb
 [Project7]
-ProjectPath=..\..\_PEDAL_BreadBoard\HW\Pedal_Power\Pedal_Power.PrjPcb
+ProjectPath=Pedal_Power\Pedal_Power.PrjPcb
