@@ -75,23 +75,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OFHUWTRO
 
 [Document3]
-DocumentPath=..\ProtoStack_H750VBT\ProtoStack_H750VBT.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
 DocumentPath=..\ProtoStack_H750VBT\ProtoStack_H750VBT.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,6 +90,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JEJBXVOW
+
+[Document4]
+DocumentPath=..\ProtoStack_H750VBT\ProtoStack_H750VBT.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Document5]
 DocumentPath=Pedal_Jacks.IntLib
