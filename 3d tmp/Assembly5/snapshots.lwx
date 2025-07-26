@@ -1,0 +1,2327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snapRoot unitsScale="0.001" artisan_version="2.4" type="snapStudio" name="SnapRoot">
+  <snapshots name="Model SnapShots"/>
+  <snapshots name="Model Material Palettes"/>
+  <snapshots name="Model Backgrounds"/>
+  <snapshots name="Model Cameras"/>
+  <snapshot name="CurrSnapshot">
+    <snapShotSettings>
+      <param val="1" type="float" name="Ambient Lights Intensity Scale"/>
+      <param val="0" type="float" name="Twist"/>
+      <param val="0 0 1" type="vector" name="Orientation Up"/>
+      <param val="0 1 0" type="vector" name="Orientation North"/>
+      <param val="1 0 0" type="vector" name="Orientation Front Face"/>
+      <param val="" type="string" name="Image File Name"/>
+      <param val="Assembly5" type="string" name="Session Folder"/>
+      <param val="setextures\hdri\studio\lwhdr_studio6\HDR\lwhdr_studio6_2k.hdr" type="string" name="Reflected Env Path"/>
+      <param val="2" type="float" name="Reflected Env Intensity"/>
+      <param val="0" type="boolean" name="Reflect BackPlate"/>
+    </snapShotSettings>
+    <scenery>
+      <param val="1" type="boolean" name="Drop Shadow"/>
+      <param val="1" type="boolean" name="Drop Sunlight"/>
+      <param val="0" type="boolean" name="Drop Reflection"/>
+      <param val="10" type="integer" name="Drop Shadow Quality"/>
+      <param val="0.8" type="float" name="Drop Shadow Contrast"/>
+      <param val="0.5" type="float" name="Drop Sunlight Brightness"/>
+      <param val="0.5" type="float" name="Drop Reflection Brightness"/>
+      <param val="0" type="float" name="Drop Reflection Blur"/>
+      <param val="3" type="float" name="Base Size"/>
+      <param val="1" type="boolean" name="Drop Shadow Catch Spots"/>
+    </scenery>
+    <scheme subcat="Product" refname="Fast Ambient - Eye and Distant" description="" path="Product\Simple Components" name="Fast Ambient - Eye and Distant" cat="Schemes">
+      <background subcat="Plain" refname="White" path="Plain" name="White" cat="Backgrounds"/>
+    </scheme>
+    <naturalLightStudio>
+      <param val="1" type="boolean" name="Enabled"/>
+      <param val="205.2" type="float" name="Sun Azimuth"/>
+      <param val="45" type="float" name="Sun Altitude"/>
+    </naturalLightStudio>
+    <background subcat="Plain" refname="White" path="Plain" name="White" cat="Backgrounds">
+      <param val="1 1 1" type="colour" name="Colour"/>
+    </background>
+    <camera>
+      <param val="218.556 -103.976 -36" type="point" name="From"/>
+      <param val="-51.3963 -103.976 -36" type="point" name="To"/>
+      <param val="0 0 1" type="vector" name="Up"/>
+      <param val="0" type="boolean" name="Orthographic"/>
+      <param val="60" type="float" name="Field Of View"/>
+      <param val="0" type="float" name="Near"/>
+      <param val="0" type="float" name="Far"/>
+      <param val="0" type="boolean" name="View Fit"/>
+    </camera>
+    <materialRepository>
+      <material linkname="Part255 255 255 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="1 1 1" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Document144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Деталь36 36 36 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.141176 0.141176 0.141176" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Деталь153 204 255 51">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.6 0.8 1" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="0.2 0.2 0.2" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Деталь51 102 0 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.2 0.4 0" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Деталь72 72 72 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.282353 0.282353 0.282353" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Part36 36 36 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.141176 0.141176 0.141176" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="CAP_TANT_-_1206_-_1.7MM193 81 6 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.756863 0.317647 0.0235294" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="CAP_TANT_-_1206_-_1.7MM144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="CAP_TANT_-_1206_-_1.7MM204 206 206 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.8 0.807843 0.807843" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Tantalum_Capacitor_case_E227 163 50 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.890196 0.639216 0.196078" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Tantalum_Capacitor_case_E144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Tantalum_Capacitor_case_E200 200 200 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.784314 0.784314 0.784314" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="RESNET_-_1206_Convex255 255 255 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="1 1 1" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="RESNET_-_1206_Convex26 26 26 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.101961 0.101961 0.101961" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="RESNET_-_1206_Convex144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0402_resistor255 255 255 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="1 1 1" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0402_resistor64 64 64 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.25098 0.25098 0.25098" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0402_resistor179 179 179 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.701961 0.701961 0.701961" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0402_resistor144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0402_resistor240 240 240 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.941176 0.941176 0.941176" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Abracon_ABM8G144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Abracon_ABM8G247 224 153 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.968627 0.878431 0.6" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0402_cap142 126 73 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.556863 0.494118 0.286275" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0402_cap144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0805144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="FilletPinR144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="PinsArrayL144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0603_resistor192 192 192 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.752941 0.752941 0.752941" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="TSSOP-28144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0603_cap142 126 73 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.556863 0.494118 0.286275" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0603_cap144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 6.8 1.1.1144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="18650 Li Ion Battery0 0 0 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0 0 0" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="18650 Li Ion Battery255 255 255 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="1 1 1" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="18650 Li Ion Battery133 242 51 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.521569 0.94902 0.2" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="18650 Li Ion Battery169 178 195 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.662745 0.698039 0.764706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Keystone_-_PN1043204 206 206 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.8 0.807843 0.807843" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Keystone_-_PN1043144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="SMB144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="SMB211 214 211 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.827451 0.839216 0.827451" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 6.8 5.37.1.1211 211 213 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.827451 0.827451 0.835294" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 6.8 5.37.1.140 40 40 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.156863 0.156863 0.156863" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="ThermalPad144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="PinsArrayLR144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Body144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="sot-23-3211 214 211 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.827451 0.839216 0.827451" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="sot-23-3144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0603_resistor255 255 255 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="1 1 1" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0603_resistor64 64 64 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.25098 0.25098 0.25098" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0603_resistor144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0805_cap142 126 73 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.556863 0.494118 0.286275" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="0805_cap144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Bourns_SRR6028144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Bourns_SRR6028211 214 211 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.827451 0.839216 0.827451" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 6.8 5.1.1144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Washer_2202 209 237 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.819608 0.929412" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Washer_1202 209 237 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.819608 0.929412" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Nut202 209 237 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.819608 0.929412" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 6.8 2.4.1.3.2202 209 237 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.819608 0.929412" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 6.8 2.4.1.3.1202 209 237 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.819608 0.929412" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="6_3_Jack_contact_01202 209 237 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.819608 0.929412" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="6_3_Jack_body202 209 237 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.819608 0.929412" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 6.8 2.1.1144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Деталь144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="3PDT Schalter144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="3PDT Pin144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="3PDT Cover144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="3PDT Body144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 7.5 8.1.1144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="ЕҐуЎ¬ј101 204 0 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.396078 0.8 0" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="ЕҐуЎ¬ј179 179 179 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.701961 0.701961 0.701961" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="SlideSwitch71 71 71 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.278431 0.278431 0.278431" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 7.5 5.1.1144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="3D Model NCJ6FA-H144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="WM12834TR-ND144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Extruded144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Midi-Din5-DS-5-02A PCB Mounted0 0 0 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0 0 0" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Midi-Din5-DS-5-02A PCB Mounted144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Kailh Choc Low Profile Switch144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="EC11B-HousingSW-vert202 210 238 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.823529 0.933333" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="EC11B-HousingSW-vert11 100 169 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.0431373 0.392157 0.662745" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="EC11B-HousingSW-vert191 191 191 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.74902 0.74902 0.74902" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="EC11B-Shaft-F202 210 238 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.823529 0.933333" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 7.5 1.6.1.1.1202 210 238 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.823529 0.933333" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 7.5 1.6.1.1.1191 191 191 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.74902 0.74902 0.74902" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="SFW12S-2STE1LF144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="TYPE-C-31-M-12144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Washer_2202 208 236 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.815686 0.92549" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Washer_1202 208 236 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.815686 0.92549" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Nut202 208 236 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.815686 0.92549" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 7.5 1.2.1.3.2202 208 236 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.815686 0.92549" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 7.5 1.2.1.3.1202 208 236 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.815686 0.92549" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="6_3 Jack contact_01202 208 236 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.815686 0.92549" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="6_3 Jack body202 208 236 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.792157 0.815686 0.92549" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Open CASCADE STEP translator 7.5 1.1.1144 144 144 255">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.564706 0.564706 0.564706" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="1 1 1" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Part36 36 36 135">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="0.141176 0.141176 0.141176" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="0.53 0.53 0.53" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+      <material linkname="Part255 255 255 102">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="1 1 1" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="0.4 0.4 0.4" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+    </materialRepository>
+    <renderTargets>
+      <renderTarget subcat="Image">
+        <param val="1" type="integer" name="Lighting Quality"/>
+        <param val="0" type="integer" name="Material Quality"/>
+        <param val="Progressive Preview" type="string" name="Render Quality"/>
+        <param prop="D" val="0.255473" type="float" name="Model Hint"/>
+        <param val="0" type="integer" name="Width"/>
+        <param val="0" type="integer" name="Height"/>
+        <param val="1" type="boolean" name="Use Aspect Ratio"/>
+        <param val="1.5" type="float" name="Aspect Ratio"/>
+        <param val="1" type="boolean" name="Landscape"/>
+        <param val="" type="string" name="Filename"/>
+        <param val="" type="string" name="Short Filename"/>
+        <param val="" type="string" name="Output Format"/>
+        <param val="0" type="float" name="Gamma"/>
+      </renderTarget>
+    </renderTargets>
+  </snapshot>
+</snapRoot>

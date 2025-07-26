@@ -14,3 +14,21 @@ ProjectPath=FootSW\Pedal_FootSW.PrjPcb
 ProjectPath=Jacks\Pedal_Jacks.PrjPcb
 [Project7]
 ProjectPath=Pedal_Power\Pedal_Power.PrjPcb
+[Project8]
+ProjectPath=Test_MultiBoard_Project\Pedal_MultiBoard_Project.PrjMbd
+[Project9]
+ProjectPath=Pedal_Display\Pedal_Display.PrjPcb
+[Project10]
+ProjectPath=Pedal_XLR\Pedal_XLR.PrjPcb
+[Project11]
+ProjectPath=Pedal_SW\Pedal_SW.PrjPcb
+[Project12]
+ProjectPath=Pedal_SD_USB\Pedal_SD_USB.PrjPcb
+[Project13]
+ProjectPath=D:\YandexDisk\Stud\Prog\Synth\_Altium\Proto_panel\LEDs_0402_V0.PrjPCB
+[Project14]
+ProjectPath=D:\YandexDisk\Stud\PROJECTS\keyboard dual\keyboard_dual.PrjPcb
+[Project15]
+ProjectPath=D:\YandexDisk\Stud\PROJECTS\keyboard dual\keyboard dual_brain\keyboard dual_brain.PrjPcb
+[Project16]
+ProjectPath=D:\YandexDisk\Stud\PROJECTS\keyboard dual\Keyboard_MultiBoard_Project\Keyboard_MultiBoard_Project.PrjMbd

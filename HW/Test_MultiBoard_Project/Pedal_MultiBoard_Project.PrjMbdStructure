@@ -1,0 +1,20 @@
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 1|Source=..\3D_design_approx\Pedal_MB.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\3D_design_approx\Pedal_MB.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 8|Source=..\FootSW\Pedal_FootSW.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\FootSW\Pedal_FootSW.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 6|Source=..\Jacks\Pedal_Jacks.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Jacks\Pedal_Jacks.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 3|Source=..\Pedal_Display\Pedal_Display.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Pedal_Display\Pedal_Display.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 9|Source=..\Pedal_Power\Pedal_Power.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Pedal_Power\Pedal_Power.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\Pedal_SD_USB\Pedal_SD_USB.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Pedal_SD_USB\Pedal_SD_USB.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 5|Source=..\Pedal_SW\Pedal_SW.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Pedal_SW\Pedal_SW.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 4|Source=..\Pedal_XLR\Pedal_XLR.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Pedal_XLR\Pedal_XLR.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 2|Source=..\SOM_Codec_WM8731\Pedal_Codec_4x4.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\SOM_Codec_WM8731\Pedal_Codec_4x4.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=D:\YandexDisk\Stud\Prog\Synth\_Altium\Proto_panel\LEDs_0402_V0.PrjPCB
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=D:\YandexDisk\Stud\Prog\Synth\_Altium\Proto_panel\LEDs_0402_V0.PrjPCB
