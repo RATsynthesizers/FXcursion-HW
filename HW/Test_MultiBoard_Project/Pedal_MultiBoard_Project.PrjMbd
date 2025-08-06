@@ -322,6 +322,27 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document14]
+DocumentPath=..\Pedal_WS2812\Pedal_WS2812.PrjPcb
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+VaultGUID=
+ManagedProjectGUID=
+RevisionGUID=
+ProjectName=Pedal_WS2812.PrjPcb
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
