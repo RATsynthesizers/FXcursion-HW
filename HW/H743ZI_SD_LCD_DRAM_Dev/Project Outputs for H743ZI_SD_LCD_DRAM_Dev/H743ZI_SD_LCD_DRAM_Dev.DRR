@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: H743ZI_SD_LCD_DRAM_Dev.PcbDoc   8/21/2025  11:52:25 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : H743ZI_SD_LCD_DRAM_Dev-RoundHoles.TXT
+ASCII SlotHoles File : H743ZI_SD_LCD_DRAM_Dev-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.305mm (12mil)                                           Round             322       PTH        1379.75mm (54.32inch)
+T2      1mm (39mil)                                               Round             161       PTH        674.10mm (26.54inch)
+T3      1.1mm (43mil)                                             Round             30        PTH        109.22mm (4.30inch)
+T4      1.2mm (47mil)                                             Round             10        PTH        124.40mm (4.90inch)
+T5      1.3mm (51mil)                                             Round             33        PTH        201.16mm (7.92inch)
+T6      1.4mm (55mil)                                             Slot              6         PTH        284.21mm (11.19inch)
+T7      1.7mm (67mil)                                             Slot              10        NPTH       299.08mm (11.77inch)
+T8      3.2mm (126mil)                                            Round             2         NPTH       45.72mm (1.80inch)
+T9      3.98mm (157mil)                                           Round             5         NPTH       132.51mm (5.22inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              579
+
+Total Processing Time (hh:mm:ss) : 00:00:01
