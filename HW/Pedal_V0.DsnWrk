@@ -22,3 +22,9 @@ ProjectPath=Pedal_SW\Pedal_SW.PrjPcb
 ProjectPath=Pedal_SD_USB\Pedal_SD_USB.PrjPcb
 [Project11]
 ProjectPath=Pedal_WS2812\Pedal_WS2812.PrjPcb
+[Project12]
+ProjectPath=D:\YandexDisk\FXcursion_old\_PEDAL_BreadBoard\HW\ProtoStack_H743ZIT\ProtoStack_H743ZIT.PrjPcb
+[Project13]
+ProjectPath=H743ZI_SD_LCD_DRAM_Dev\H743ZI_SD_LCD_DRAM_Dev.PrjPcb
+[Project14]
+ProjectPath=Pedal_Back\Pedal_Back.PrjPcb

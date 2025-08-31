@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [H743ZI_SD_LCD_DRAM_Dev.PrjPcb]
+   Generated File[H743ZI_SD_LCD_DRAM_Dev-RoundHoles.TXT]
+   Generated File[H743ZI_SD_LCD_DRAM_Dev-SlotHoles.TXT]
+   Generated File[H743ZI_SD_LCD_DRAM_Dev.LDP]
+   Generated File[H743ZI_SD_LCD_DRAM_Dev.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:52:26 AM On 8/21/2025
