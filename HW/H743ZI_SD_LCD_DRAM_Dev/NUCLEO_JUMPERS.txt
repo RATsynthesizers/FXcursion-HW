@@ -1,0 +1,26 @@
+--- to open ---
+pb14-
+pb7-
+pc13-
+pd8-
+pd9-
+pg11-
+pg13-
+PG11-
+PG13-
+
+PA10-
+PA1-
+PA2-
+PC1-
+PC4-
+PC5-
+PB0 - SB120
+PB2-BOOT-MY_LCD_TE_EXTI2
+PH1 - sb163
+
+--- to close ---
+pc14- sb144
+pc15 - sb145
+
+8MHz
