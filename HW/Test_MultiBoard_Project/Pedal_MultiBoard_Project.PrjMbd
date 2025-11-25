@@ -346,7 +346,7 @@ VaultURL=
 VaultName=
 
 [Document15]
-DocumentPath=..\Pedal_Back\Pedal_Back.PrjPcb
+DocumentPath=..\Pedal_LoopLEDS\Pedal_LoopLEDS.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -364,7 +364,7 @@ DocumentUniqueId=
 VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
-ProjectName=Pedal_Back.PrjPcb
+ProjectName=Pedal_LoopLEDS.PrjPcb
 
 [OutputGroup1]
 Name=Netlist Outputs
