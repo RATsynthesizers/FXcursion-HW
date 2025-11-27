@@ -6,6 +6,8 @@ Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board S
 Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Jacks\Pedal_Jacks.PrjPcb
 Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 3|Source=..\Pedal_Display\Pedal_Display.PrjPcb
 Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Pedal_Display\Pedal_Display.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 13|Source=..\Pedal_Filters\Pedal_Filters.PrjPcb
+Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Pedal_Filters\Pedal_Filters.PrjPcb
 Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 12|Source=..\Pedal_LoopLEDS\Pedal_LoopLEDS.PrjPcb
 Record=SubProject|SourceDocument=Test_MultiBoard.MbsDoc|ProjectPath=..\Pedal_LoopLEDS\Pedal_LoopLEDS.PrjPcb
 Record=DiagramHierarchy|SourceDocument=Test_MultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=Board 9|Source=..\Pedal_Power\Pedal_Power.PrjPcb
