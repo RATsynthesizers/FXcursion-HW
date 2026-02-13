@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snapRoot unitsScale="0.001" artisan_version="2.4" type="snapStudio" name="SnapRoot">
+  <snapshots name="Model SnapShots"/>
+  <snapshots name="Model Material Palettes"/>
+  <snapshots name="Model Backgrounds"/>
+  <snapshots name="Model Cameras"/>
+  <snapshot name="CurrSnapshot">
+    <snapShotSettings>
+      <param val="1" type="float" name="Ambient Lights Intensity Scale"/>
+      <param val="0" type="float" name="Twist"/>
+      <param val="0 0 1" type="vector" name="Orientation Up"/>
+      <param val="0 1 0" type="vector" name="Orientation North"/>
+      <param val="1 0 0" type="vector" name="Orientation Front Face"/>
+      <param val="" type="string" name="Image File Name"/>
+      <param val="Ascon Session" type="string" name="Session Folder"/>
+      <param val="setextures\hdri\studio\lwhdr_studio6\HDR\lwhdr_studio6_2k.hdr" type="string" name="Reflected Env Path"/>
+      <param val="2" type="float" name="Reflected Env Intensity"/>
+      <param val="0" type="boolean" name="Reflect BackPlate"/>
+    </snapShotSettings>
+    <scenery>
+      <param val="1" type="boolean" name="Drop Shadow"/>
+      <param val="1" type="boolean" name="Drop Sunlight"/>
+      <param val="0" type="boolean" name="Drop Reflection"/>
+      <param val="10" type="integer" name="Drop Shadow Quality"/>
+      <param val="0.8" type="float" name="Drop Shadow Contrast"/>
+      <param val="0.5" type="float" name="Drop Sunlight Brightness"/>
+      <param val="0.5" type="float" name="Drop Reflection Brightness"/>
+      <param val="0" type="float" name="Drop Reflection Blur"/>
+      <param val="3" type="float" name="Base Size"/>
+      <param val="1" type="boolean" name="Drop Shadow Catch Spots"/>
+    </scenery>
+    <scheme subcat="Product" refname="Fast Ambient - Eye and Distant" description="" path="Product\Simple Components" name="Fast Ambient - Eye and Distant" cat="Schemes">
+      <background subcat="Plain" refname="White" path="Plain" name="White" cat="Backgrounds"/>
+    </scheme>
+    <naturalLightStudio>
+      <param val="1" type="boolean" name="Enabled"/>
+      <param val="205.2" type="float" name="Sun Azimuth"/>
+      <param val="45" type="float" name="Sun Altitude"/>
+    </naturalLightStudio>
+    <background subcat="Plain" refname="White" path="Plain" name="White" cat="Backgrounds">
+      <param val="1 1 1" type="colour" name="Colour"/>
+    </background>
+    <camera>
+      <param val="195.21 -123 19" type="point" name="From"/>
+      <param val="-61 -123 19" type="point" name="To"/>
+      <param val="0 0 1" type="vector" name="Up"/>
+      <param val="0" type="boolean" name="Orthographic"/>
+      <param val="60" type="float" name="Field Of View"/>
+      <param val="0" type="float" name="Near"/>
+      <param val="0" type="float" name="Far"/>
+      <param val="0" type="boolean" name="View Fit"/>
+    </camera>
+    <materialRepository>
+      <material linkname="Part255 255 255 102">
+        <material>
+          <colour>
+            <diffuse enabled="1">
+              <param val="colour" type="shader" name="Colour">
+                <plainColour enabled="1">
+                  <param val="1 1 1" type="colour" name="Colour"/>
+                </plainColour>
+              </param>
+            </diffuse>
+          </colour>
+          <transparency>
+            <param val="colour" type="shader" name="Colour">
+              <plainColour enabled="1">
+                <param val="0.4 0.4 0.4" type="colour" name="Colour"/>
+              </plainColour>
+            </param>
+            <param val="0" type="boolean" name="InvertMask"/>
+          </transparency>
+          <bump subcat="Bumps" refname="Smooth" path="Bumps" name="Displacement" cat="Bumps"/>
+          <finish subcat="Standard" refname="Matte" path="Standard\Paints" name="Reflectance" cat="Finishes"/>
+        </material>
+      </material>
+    </materialRepository>
+    <renderTargets>
+      <renderTarget subcat="Image">
+        <param val="1" type="integer" name="Lighting Quality"/>
+        <param val="0" type="integer" name="Material Quality"/>
+        <param val="Progressive Preview" type="string" name="Render Quality"/>
+        <param prop="D" val="0.246" type="float" name="Model Hint"/>
+        <param val="0" type="integer" name="Width"/>
+        <param val="0" type="integer" name="Height"/>
+        <param val="1" type="boolean" name="Use Aspect Ratio"/>
+        <param val="1.5" type="float" name="Aspect Ratio"/>
+        <param val="1" type="boolean" name="Landscape"/>
+        <param val="" type="string" name="Filename"/>
+        <param val="" type="string" name="Short Filename"/>
+        <param val="" type="string" name="Output Format"/>
+        <param val="0" type="float" name="Gamma"/>
+      </renderTarget>
+    </renderTargets>
+  </snapshot>
+</snapRoot>
