@@ -216,9 +216,26 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YXHPUKBV
+DocumentUniqueId=LSKPKFHA
 
 [Document11]
+DocumentPath=main_old.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YXHPUKBV
+
+[Document12]
 DocumentPath=Pedal_MB.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,7 +252,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document13]
 DocumentPath=PadviaLib1.PvLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,7 +269,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document14]
 DocumentPath=LCD_big.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,7 +286,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document15]
 DocumentPath=3d_dsn_approx.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -286,7 +303,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document16]
 DocumentPath=MCU_GUI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -303,7 +320,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WPDHQJVP
 
-[Document16]
+[Document17]
 DocumentPath=MCU_AUDIO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,7 +337,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IERXPQQU
 
-[Document17]
+[Document18]
 DocumentPath=MCU_AUDIO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,7 +354,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document19]
 DocumentPath=MCU_GUI.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -354,7 +371,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=MISO_LSH.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,7 +388,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MLNMXZSU
 
-[Document20]
+[Document21]
 DocumentPath=Codec_CN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -388,7 +405,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PTIWREPD
 
-[Document21]
+[Document22]
 DocumentPath=FOOT_CN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -405,7 +422,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document23]
 DocumentPath=SOM_MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -422,7 +439,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document24]
 DocumentPath=Codec_CN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -439,7 +456,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document25]
 DocumentPath=MCUs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -456,7 +473,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QSUCUUHL
 
-[Document25]
+[Document26]
 DocumentPath=MIDI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -473,7 +490,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AIGHFDRE
 
-[Document26]
+[Document27]
 DocumentPath=MIDI.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -490,7 +507,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document28]
 DocumentPath=JACKS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -507,7 +524,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PCUCIYRA
 
-[Document28]
+[Document29]
 DocumentPath=JACKS.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -524,7 +541,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document30]
 DocumentPath=USB_DBG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -541,7 +558,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KXAVMCUC
 
-[Document30]
+[Document31]
 DocumentPath=USB_DBG.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -558,7 +575,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document32]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -575,7 +592,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AZKSVXWB
 
-[Document32]
+[Document33]
 DocumentPath=Power.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -592,7 +609,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document34]
 DocumentPath=UI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -609,7 +626,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KGMKWKNB
 
-[Document34]
+[Document35]
 DocumentPath=LOOP_LEDS.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -626,7 +643,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document35]
+[Document36]
 DocumentPath=LOOP_LEDS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -643,7 +660,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NYNOOKAQ
 
-[Document36]
+[Document37]
 DocumentPath=UI.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -660,7 +677,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document37]
+[Document38]
 DocumentPath=..\..\..\..\..\YandexDisk\Stud\Prog\Synth\_Altium\DAC_ADC\DAC_ADC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -677,7 +694,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document38]
+[Document39]
 DocumentPath=..\..\..\..\..\YandexDisk\Stud\Prog\Synth\_Altium\DAC_ADC\DAC_ADC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
