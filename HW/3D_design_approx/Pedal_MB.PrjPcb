@@ -797,86 +797,90 @@ DocumentPath=Project Outputs for 3D_design_approx\Design Rule Check - 3d_design_
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Pedal_MB\main-RoundHoles.TXT
+DocumentPath=Project Outputs for Pedal_MB\Design Rule Check - main.html
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Pedal_MB\main-SlotHoles.TXT
+DocumentPath=Project Outputs for Pedal_MB\main-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Pedal_MB\main.DRR
+DocumentPath=Project Outputs for Pedal_MB\main-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Pedal_MB\main.EXTREP
+DocumentPath=Project Outputs for Pedal_MB\main.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Pedal_MB\main.G1
+DocumentPath=Project Outputs for Pedal_MB\main.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for Pedal_MB\main.G2
+DocumentPath=Project Outputs for Pedal_MB\main.G1
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for Pedal_MB\main.G4
+DocumentPath=Project Outputs for Pedal_MB\main.G2
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for Pedal_MB\main.G5
+DocumentPath=Project Outputs for Pedal_MB\main.G4
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for Pedal_MB\main.GBL
+DocumentPath=Project Outputs for Pedal_MB\main.G5
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for Pedal_MB\main.GBO
+DocumentPath=Project Outputs for Pedal_MB\main.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for Pedal_MB\main.GBP
+DocumentPath=Project Outputs for Pedal_MB\main.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for Pedal_MB\main.GBS
+DocumentPath=Project Outputs for Pedal_MB\main.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for Pedal_MB\main.GM2
+DocumentPath=Project Outputs for Pedal_MB\main.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for Pedal_MB\main.GTL
+DocumentPath=Project Outputs for Pedal_MB\main.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for Pedal_MB\main.GTO
+DocumentPath=Project Outputs for Pedal_MB\main.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for Pedal_MB\main.GTP
+DocumentPath=Project Outputs for Pedal_MB\main.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for Pedal_MB\main.GTS
+DocumentPath=Project Outputs for Pedal_MB\main.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for Pedal_MB\main.LDP
+DocumentPath=Project Outputs for Pedal_MB\main.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for Pedal_MB\main.REP
+DocumentPath=Project Outputs for Pedal_MB\main.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for Pedal_MB\main.RUL
+DocumentPath=Project Outputs for Pedal_MB\main.REP
 DItemRevisionGUID=
 
 [GeneratedDocument38]
+DocumentPath=Project Outputs for Pedal_MB\main.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument39]
 DocumentPath=Project Outputs for Free Documents\ExportSTEP\main.step
 DItemRevisionGUID=
 
