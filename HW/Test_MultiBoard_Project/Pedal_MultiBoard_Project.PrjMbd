@@ -388,6 +388,8 @@ VaultGUID=
 ManagedProjectGUID=
 RevisionGUID=
 ProjectName=Pedal_Filters.PrjPcb
+VaultURL=
+VaultName=
 
 [OutputGroup1]
 Name=Netlist Outputs

@@ -30,3 +30,5 @@ ProjectPath=Pedal_Filters\Pedal_Filters.PrjPcb
 ProjectPath=..\..\..\..\YandexDisk\FXcursion_old\_PEDAL_BreadBoard\HW\ProtoStack_H743ZIT\ProtoStack_H743ZIT.PrjPcb
 [Project15]
 ProjectPath=H743ZI_SD_LCD_DRAM_Dev\H743ZI_SD_LCD_DRAM_Dev.PrjPcb
+[Project16]
+ProjectPath=Audio_testboard\Audio_testboard.PrjPcb
