@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Audio_testboard.PcbDoc   4/7/2026  12:44:54 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Audio_testboard.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             222       PTH        799.21mm (31.46inch)
+T2      0.305mm (12mil)                                           Round             370       PTH        2040.12mm (80.32inch)
+T3      1mm (39mil)                                               Round             160       PTH        732.33mm (28.83inch)
+T4      1.1mm (43mil)                                             Round             62        PTH        813.26mm (32.02inch)
+T5      1.3mm (51mil)                                             Round             20        PTH        124.29mm (4.89inch)
+T6      1.8mm (71mil)                                             Round             12        PTH        138.01mm (5.43inch)
+T7      1.8mm (71mil)                                             Round             12        NPTH       114.02mm (4.49inch)
+T8      3.2mm (126mil)                                            Round             2         NPTH       45.72mm (1.80inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              860
+
+Total Processing Time (hh:mm:ss) : 00:00:00
