@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: D:\TMP\Desktop\FXcursion-HW\HW\Audio_testboard\Audio_testboard.PcbDoc
+DRC Rules Export File for PCB: C:\Users\romte\Desktop\FXcursion-HW\HW\Audio_testboard\Audio_testboard.PcbDoc
 RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=7.87
 RuleKind=MinimumAnnularRing|RuleName=For Via 2|Scope=Board|Minimum=5.91
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

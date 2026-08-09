@@ -1,12 +1,13 @@
 Output: NC Drill Files
 Type  : NC Drill
 From  : Project [Audio_testboard.PrjPcb]
-   Generated File[Audio_testboard.TXT]
+   Generated File[Audio_testboard-RoundHoles.TXT]
+   Generated File[Audio_testboard-SlotHoles.TXT]
    Generated File[Audio_testboard.LDP]
    Generated File[Audio_testboard.DRR]
 
 
-Files Generated   : 3
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 12:44:54 AM On 4/7/2026
+Finished Output Generation At 15:48:15 On 05.08.2026
