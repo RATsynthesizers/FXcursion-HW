@@ -1,6 +1,5 @@
-Record=TopLevelDocument|FileName=Pedal_XLR.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=Pedal_XLR.SchDoc|Designator=XLR1|SchDesignator=XLR1|FileName=XLR.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=XLR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Pedal_XLR.SchDoc|Designator=XLR2|SchDesignator=XLR2|FileName=XLR.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=XLR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Pedal_XLR.SchDoc|Designator=XLR3|SchDesignator=XLR3|FileName=XLR.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=XLR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Pedal_XLR.SchDoc|Designator=XLR4|SchDesignator=XLR4|FileName=XLR.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=XLR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=Pedal_XLR.SchDoc|FileName=analog_tmp.SchDoc|SheetNumber=3
+Record=TopLevelDocument|FileName=Pedal_XLR.SchDoc
+Record=SheetSymbol|SourceDocument=Pedal_XLR.SchDoc|Designator=XLR1|SchDesignator=XLR1|FileName=XLR.SchDoc|SymbolType=Normal|RawFileName=XLR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Pedal_XLR.SchDoc|Designator=XLR2|SchDesignator=XLR2|FileName=XLR.SchDoc|SymbolType=Normal|RawFileName=XLR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Pedal_XLR.SchDoc|Designator=XLR3|SchDesignator=XLR3|FileName=XLR.SchDoc|SymbolType=Normal|RawFileName=XLR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Pedal_XLR.SchDoc|Designator=XLR4|SchDesignator=XLR4|FileName=XLR.SchDoc|SymbolType=Normal|RawFileName=XLR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

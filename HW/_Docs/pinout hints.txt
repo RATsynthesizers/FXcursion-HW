@@ -11,3 +11,5 @@ _Display2_i2c
 
 Display2 spi - spi4 when disp1->LTDC (tx only, no HWcs)
 Display2 spi - spi4 when disp1->FMC (full support)
+
+MY_UI_RESET - PC13
